@@ -3,7 +3,7 @@
 Already installed on system:
 Laravel Valet to automatically set up
 
-##1 Install WordPress
+## 1. Install WordPress
 
 ```
 curl -O https://wordpress.org/latest.zip
