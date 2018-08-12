@@ -1,7 +1,9 @@
 # kodeFant WordPress WorkFlow
 
-Already installed on system:
-Laravel Valet to automatically set up
+Needs to already be installed on system:
+Laravel Valet
+gitignore.io
+Visual Studio Code
 
 ## 1. Install WordPress
 
@@ -13,9 +15,9 @@ rm latest.zip
 ```
 
 - Create a new database in Sequel Pro
-- Do the Wordpress setup via project-name.test
-- cd into your WordPress Theme Folder
-- Initialize git
+- Do the Wordpress setup via project-name .test URL
+
+Then cd into your WordPress Folder in terminal
 
 ```
 cd [project-name]
@@ -24,36 +26,15 @@ cd [project-name]
 ## 2. Initialise git
 
 ```
-touch .gitignore
-nano .gitignore
+gi wordpress >> .gitignore
+git init
 ```
 
-Paste this into .gitignore:
+- Create new [Github](https://github.com/new) or [BitBucket](https://bitbucket.org/repo/create) repository
+- Follow instruction to connect to local git repository
 
 ```
-# Created by https://www.gitignore.io/api/wordpress
-
-### WordPress ###
-*.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/mu-plugins/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
-
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
-
-
-
-# End of https://www.gitignore.io/api/wordpress
+git add .
+git commit -m "First Commit"
+git push
 ```
