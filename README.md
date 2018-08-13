@@ -9,17 +9,18 @@ Needs to already be installed on system:
 - yarn
 
 todos:
-[ ] make complete sh-script with [project-name] and [theme-name] as variables
+
+- [ ] make complete sh-script with [project-name] and [theme-name] as variables
 
 ## 1. Install WordPress
 
-First, create a MySQL database:
+### First, create a MySQL database:
 
 ```
 mysql -u root -e "create database [project-name]";
 ```
 
-Alternative 1: Vanilla WordPress:
+### Alternative 1: Vanilla WordPress:
 
 ```
 curl -O https://wordpress.org/latest.zip
@@ -41,13 +42,14 @@ code .env
 ```
 
 In **.env**, edit the following:
-**DB_NAME** - [project-name]
-**DB_USER** - Database user
-**DB_PASSWORD** - Database password
-**WP_ENV** - development
-**WP_HOME** - Full URL to WordPress home (http://example.com)
-**WP_SITEURL** - Full URL to WordPress including subdirectory (http://example.com/wp)
-AUTH_KEY, SECURE_AUTH_KEY, LOGGED_IN_KEY, NONCE_KEY, AUTH_SALT, SECURE_AUTH_SALT, LOGGED_IN_SALT, NONCE_SALT - Generate with [WordPress Salt Generator](https://cdn.roots.io/salts.html)
+
+- **DB_NAME** - [project-name]
+- **DB_USER** - Database user
+- **DB_PASSWORD** - Database password
+- **WP_ENV** - development
+- **WP_HOME** - Full URL to WordPress home (http://example.com)
+- **WP_SITEURL** - Full URL to WordPress including subdirectory (http://example.com/wp)
+- AUTH_KEY, SECURE_AUTH_KEY, LOGGED_IN_KEY, NONCE_KEY, AUTH_SALT, SECURE_AUTH_SALT, LOGGED_IN_SALT, NONCE_SALT - Generate with [WordPress Salt Generator](https://cdn.roots.io/salts.html)
 
 ## 2. Initialize git
 
@@ -64,13 +66,13 @@ git commit -m "First Commit"
 
 cd to theme folder
 
-Alternative 1: Vanilla WordPress:
+### Alternative 1: Vanilla WordPress:
 
 ```
 cd wp-content/themes
 ```
 
-Alternative 2: Bedrock WordPress Boilerplate:
+### Alternative 2: Bedrock WordPress Boilerplate:
 
 ```
 cd web/app/themes
