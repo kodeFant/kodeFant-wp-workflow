@@ -33,7 +33,7 @@ gi wordpress >> .gitignore
 
 - Do the Wordpress setup via project-name .test URL
 
-Alternative 2: Bedrock WordPress Boilerplate:
+### Alternative 2: Bedrock WordPress Boilerplate:
 
 ```
 composer create-project roots/bedrock [project-name]
