@@ -76,6 +76,13 @@ cd wp-content/themes
 
 ```
 cd web/app/themes
+```
+
+---
+
+### Add Sage Theme
+
+```
 composer create-project roots/sage [theme-name]
 cd [theme-name]
 yarn
