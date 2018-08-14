@@ -64,7 +64,9 @@ git commit -m "First Commit"
 
 ## 3. Add Starter Wordpress Theme
 
-cd to theme folder
+## cd to theme folder
+
+---
 
 ### Alternative 1: Vanilla WordPress:
 
