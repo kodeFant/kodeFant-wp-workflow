@@ -34,6 +34,7 @@ gi wordpress >> .gitignore
 
 - Do the Wordpress setup via project-name .test URL
 
+<!--
 ### Alternative 2: Bedrock WordPress Boilerplate:
 
 ```
@@ -53,6 +54,7 @@ In **.env**, edit the following:
 - AUTH_KEY, SECURE_AUTH_KEY, LOGGED_IN_KEY, NONCE_KEY, AUTH_SALT, SECURE_AUTH_SALT, LOGGED_IN_SALT, NONCE_SALT - Generate with [WordPress Salt Generator](https://cdn.roots.io/salts.html)
 
 ---
+-->
 
 ## 2. Initialize git
 
